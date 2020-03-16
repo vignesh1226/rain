@@ -9,26 +9,26 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  a = new Raindrop(20,30,20,PI);
-  b = new Raindrop(30,30,20,PI);
-  c = new Raindrop(30,40,20,PI);
-  d = new Raindrop(40,50,20,PI);
-  e = new Raindrop(30,60,20,PI);
-  f = new Raindrop(20,30,20,PI);
-  g = new Raindrop(30,40,20,PI);
-  h = new Raindrop(30,80,20,PI);
-  i = new Raindrop(40,20,20,PI);
-  j = new Raindrop(100,90,20,PI);
-  k = new Raindrop(54,74,20,PI);
-  l = new Raindrop(31,39,20,PI);
-  m = new Raindrop(80,356,20,PI);
-  n = new Raindrop(82,208,20,PI);
-  o = new Raindrop(78,34,20,PI);
-  p = new Raindrop(67,42,20,PI);
-  q = new Raindrop(74,42,20,PI);
-  r = new Raindrop(30,34,20,PI);
-  s = new Raindrop(340,150,20,PI);
-  t = new Raindrop(378,360,20,PI);
+  a = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  b = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  c = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  d = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  e = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  f = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  g = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  h = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  i = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  j = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  k = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  l = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  m = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  n = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  o = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  p = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  q = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  r = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  s = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
+  t = new Raindrop(random(0,400),random(0,400),random(5,30),PI);
 
 }
 
